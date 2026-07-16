@@ -77,14 +77,14 @@ You can use `#link()` to add links, for example:
 - #link("https://yousa-mirage.github.io/", "This is also an external link").
 - You can also link to other pages or resources on this site, for example:
   - #link("../typst-example/sample-PDF.pdf")[This links to a PDF document]. You can create Typst documents that compile to PDF, such as this PDF built from `sample-PDF.typ`. You can link to the compiled PDF to showcase complex formatting (e.g. a PDF version of a resume).
-  - #link("/CV/")[And this links to the CV page of this site.]
+  - #link("/Sonny-Boy.github.io/CV/")[And this links to the CV page of this site.]
 
 ```typ
 - #link("https://github.com/Yousa-Mirage")[This is a link to an external webpage].
 - #link("https://yousa-mirage.github.io/", "This is also an external link").
 - You can also link to other pages or resources on this site, for example:
   - #link("../typst-example/sample-PDF.pdf")[This links to a PDF document].
-  - #link("/CV/")[And this links to the CV page of this site.]
+  - #link("/Sonny-Boy.github.io/CV/")[And this links to the CV page of this site.]
 ```
 
 
@@ -133,7 +133,7 @@ Here is an example of mixed lists:
 
 #tufted.margin-note[You can add margin content anywhere.]
 
-The most distinctive feature of the *Tufte style* is its *wide margin layout*: notes, references, and figures are displayed in the margin right next to the main text, replacing traditional footnotes or endnotes. This recreates a clear, immersive, side-by-side reading experience on screens. #footnote[This is what the homepage of #link("/")[this site] says.]
+The most distinctive feature of the *Tufte style* is its *wide margin layout*: notes, references, and figures are displayed in the margin right next to the main text, replacing traditional footnotes or endnotes. This recreates a clear, immersive, side-by-side reading experience on screens. #footnote[This is what the homepage of #link("/Sonny-Boy.github.io/")[this site] says.]
 
 You can use `footnote()` to add footnotes. They will automatically appear in the margin aligned with the main text, so readers don't have to scroll to the end of the page. #footnote[Footnotes really interrupt reading! That's also why I built this blog template with the Tufte style.]
 

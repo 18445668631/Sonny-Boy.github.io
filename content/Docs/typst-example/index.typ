@@ -76,14 +76,14 @@
 - #link("https://yousa-mirage.github.io/", "这也是一个外部链接")。
 - 你也可以链接到本网站的其他位置，例如：
   - #link("sample-PDF.pdf")[这是一个指向 PDF 文档的链接]。你可以创建编译为 PDF 的 Typst 文档，例如这个 PDF 由名为 `sample-PDF.typ` 的文件编译而来。你可以链接到编译的 PDF 文件，从而展示带有复杂格式的 PDF 文档，比如 PDF 版简历。
-  - #link("/CV/")[而这是一个指向本网站 CV 页的链接。]
+  - #link("/Sonny-Boy.github.io/CV/")[而这是一个指向本网站 CV 页的链接。]
 
 ```typ
 - #link("https://github.com/Yousa-Mirage")[这是一个外部网页的链接]。
 - #link("https://yousa-mirage.github.io/", "这也是一个外部链接")。
 - 你也可以链接到本网站的其他位置，例如：
   - #link("sample-PDF.pdf")[这是一个指向 PDF 文档的链接]。
-  - #link("/CV/")[而这是一个指向本网站 CV 页的链接。]
+  - #link("/Sonny-Boy.github.io/CV/")[而这是一个指向本网站 CV 页的链接。]
 ```
 
 
@@ -132,7 +132,7 @@
 
 #tufted.margin-note[你可以在任何地方添加边栏内容。]
 
-*Tufte 样式*最鲜明的特点就是采用*宽大的侧边栏布局*，将注释、参考文献和图表直接并排展示在正文旁，取代了传统的脚注或尾注，在数字屏幕上复刻了经典学术著作般清晰、沉浸且图文对照的深度阅读体验。#footnote[这是#link("/")[本网站首页]写的话。]
+*Tufte 样式*最鲜明的特点就是采用*宽大的侧边栏布局*，将注释、参考文献和图表直接并排展示在正文旁，取代了传统的脚注或尾注，在数字屏幕上复刻了经典学术著作般清晰、沉浸且图文对照的深度阅读体验。#footnote[这是#link("/Sonny-Boy.github.io/")[本网站首页]写的话。]
 
 你可以使用 `footnote()` 函数添加注释，会自动添加到与正文齐平的侧边栏中，不需要再翻到网站末尾。#footnote[脚注真的很打断阅读体验！这也是我使用 Tufte 样式制作博客模板的原因。]
 

@@ -1,36 +1,18 @@
 #import "../index.typ": template, tufted
 #show: template.with(
-  title: "Blog",
-  description: "Some blog examples",
-)
-
-= 博客 / Blog
-
-中文博客样例可参考 #link("https://yousa-mirage.github.io/Blog")[我的个人网站]。
-== 2026
-
-#tufted.blog-entry(
-  date: "2026-7-16",
-  path: "2026-7-16-Norm/",
   title: "Norm",
-)
-== 2025
-
-#tufted.blog-entry(
-  date: datetime(year: 2025, month: 10, day: 30),
-  path: "2025-10-30-normal-distribution/",
-  title: "Normal Distribution",
-)
-#tufted.blog-entry(
-  date: datetime(year: 2025, month: 4, day: 16),
-  path: "2025-04-16-monkeys-apes",
-  title: "Monkeys vs Apes",
+  description: "A short note about norm.",
+  date: datetime(year: 2026, month: 7, day: 16),
 )
 
-== 2024
+= Norm
 
-#tufted.blog-entry(
-  date: "2024-10-04",
-  path: "2024-10-04-iterators-generators/",
-  title: "Iterators vs Generators in Python",
-)
+A norm is a way to measure the size or length of an object, such as a vector, a function, or a matrix.
+
+== Common examples
+
+- $L_1$ norm: the sum of absolute values.
+- $L_2$ norm: the Euclidean length.
+- $L_infinity$ norm: the largest absolute component.
+
+Norms are useful because they turn abstract mathematical objects into comparable quantities.
