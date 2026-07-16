@@ -7,7 +7,13 @@
 = 博客 / Blog
 
 中文博客样例可参考 #link("https://yousa-mirage.github.io/Blog")[我的个人网站]。
+== 2026
 
+#tufted.blog-entry(
+  date: "2026-7-16",
+  path: "2026-7-16-Norm/",
+  title: "Norm",
+)
 == 2025
 
 #tufted.blog-entry(
