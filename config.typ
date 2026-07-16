@@ -9,10 +9,10 @@
   // 例如，如果你想添加一个 Entry 页，你需要添加 `"/Entry/": "Entry"`
   // 然后在 `content/` 路径中新建 `Entry/`路径，在其中添加 `index.typ` 作为 Entry 页的内容
   header-links: (
-    "/": "Home",
-    "/Docs/": "Docs",
-    "/Blog/": "Blog",
-    "/CV/": "CV",
+    "/Sonny-Boy.github.io/": "Home",
+    "/Sonny-Boy.github.io/Docs/": "Docs",
+    "/Sonny-Boy.github.io/Blog/": "Blog",
+    "/Sonny-Boy.github.io/CV/": "CV",
   ),
   
   /// 网站的站点标题。会显示在浏览器标签页以及 SEO/社交分享卡片中。
@@ -22,7 +22,7 @@
   /// 网站描述。用于 SEO 搜索引擎摘要和社交媒体分享预览。（可选）
   description: "Tufted Blog Template, Powered by Typst",
   /// 站点的根 URL (例如 "https://example.com")。用于生成 Canonical URL 元数据。（可选）
-  website-url: "https://tufted-blog.pages.dev/",
+  website-url: "https://18445668631.github.io/Sonny-Boy.github.io/",
   /// 网站的默认语言，例如 "zh" 或 "en"，默认为 "zh"。
   lang: "zh",
   /// 订阅源配置 (字符串数组)，指定包含在 RSS 订阅源中的内容目录列表。（可选）

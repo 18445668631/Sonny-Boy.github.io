@@ -36,7 +36,7 @@
   footer-elements: (),
 
   // Custom CSS and JS Scripts
-  css: ("/assets/custom.css",),
+  css: ("/Sonny-Boy.github.io/assets/custom.css",),
   js-scripts: (),
 
   content,
@@ -72,8 +72,8 @@
         // load CSS
         let base-css = (
           "https://cdnjs.cloudflare.com/ajax/libs/tufte-css/1.8.0/tufte.min.css",
-          "/assets/tufted.css",
-          "/assets/theme.css",
+          "/Sonny-Boy.github.io/assets/tufted.css",
+          "/Sonny-Boy.github.io/assets/theme.css",
         )
         for (css-link) in (base-css + css).dedup() {
           html.link(rel: "stylesheet", href: css-link)
@@ -81,13 +81,13 @@
 
         // load JS scripts
         let base-js = (
-          "/assets/code-blocks.js",
-          "/assets/format-headings.js",
-          "/assets/theme-toggle.js",
-          "/assets/marginnote-toggle.js",
-          "/assets/toc.js",
-          "/assets/back-to-top.js",
-          "/assets/math-copy.js",
+          "/Sonny-Boy.github.io/assets/code-blocks.js",
+          "/Sonny-Boy.github.io/assets/format-headings.js",
+          "/Sonny-Boy.github.io/assets/theme-toggle.js",
+          "/Sonny-Boy.github.io/assets/marginnote-toggle.js",
+          "/Sonny-Boy.github.io/assets/toc.js",
+          "/Sonny-Boy.github.io/assets/back-to-top.js",
+          "/Sonny-Boy.github.io/assets/math-copy.js",
         )
         for (js-src) in (base-js + js-scripts).dedup() {
           html.script(src: js-src)
